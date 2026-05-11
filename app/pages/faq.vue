@@ -23,10 +23,10 @@ import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
 import Navbar from '@/components/light/creative-agency/Navbar';
-import Header from '@/components/light/FAQS/Header';
-import FAQS from '@/components/light/FAQS/FAQS';
-import Testimonials from '@/components/light/FAQS/Testimonials';
-import Blog from '@/components/light/FAQS/Blog';
+import Header from '@/components/light/FAQs/Header';
+import FAQS from '@/components/light/FAQs/FAQs';
+import Testimonials from '@/components/light/FAQs/Testimonials';
+import Blog from '@/components/light/FAQs/Blog';
 import { onMounted } from 'vue';
 
 onMounted(() => {
