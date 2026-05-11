@@ -20,7 +20,7 @@ import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
 import { onMounted } from 'vue';
-import Navbar from '@/components/light/portfolio-caption/Navbar';
+import Navbar from '@/components/light/creative-agency/Navbar';
 import Header from '@/components/light/portfolio-standard/Header';
 import Portfolio from '@/components/light/portfolio-standard/Portfolio';
 import Footer from '@/components/light/blog-details/Footer';
