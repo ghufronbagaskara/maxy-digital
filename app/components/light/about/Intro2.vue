@@ -72,7 +72,7 @@
   </section>
 </template>
 <script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+import loadBackgroudImages from '@/common/loadBackgroudImage';
 
 onMounted(() => {
   loadBackgroudImages();
