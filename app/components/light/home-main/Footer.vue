@@ -46,8 +46,7 @@
             <ul class="rest fz-14">
               <li class="mb-15"><a href="/solutions/agentic-ai">Agentic AI</a></li>
               <li class="mb-15"><a href="/solutions/web-app">Web and App</a></li>
-              <li class="mb-15"><a href="/solutions/digital-growth">Digital Growth</a></li>
-              <li><a href="/singapore-grant">Singapore AI Grant</a></li>
+              <li><a href="/solutions/digital-growth">Digital Growth</a></li>
             </ul>
           </div>
         </div>
@@ -55,11 +54,8 @@
           <div class="column">
             <h6 class="sub-title mb-30">Company</h6>
             <ul class="rest fz-14">
-              <li class="mb-15"><a href="/about">About MAXY</a></li>
-              <li class="mb-15"><a href="/case-studies">Case Studies</a></li>
-              <li class="mb-15"><a href="/insights">Insights</a></li>
-              <li class="mb-15"><a href="/contact">Contact</a></li>
-              <li><a href="/faq">FAQ</a></li>
+             <li class="mb-15"><a href="/roadmap">Roadmap</a></li>
+             <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
