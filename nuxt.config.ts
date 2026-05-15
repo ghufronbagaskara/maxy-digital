@@ -64,8 +64,12 @@ export default defineNuxtConfig({
         { src: "/light/assets/js/scripts.js", defer: true },
       ],
     },
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
   },
-  css: ["swiper/css/bundle"],
+  css: ["swiper/css/bundle", "@/assets/css/transitions.css"],
 
   webpack: {
     extractCSS: true,

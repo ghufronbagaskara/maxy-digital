@@ -1,7 +1,7 @@
 <template>
   <header
     class="header main-header bg-img"
-    data-background="/light/assets/imgs/header/bg1.jpg"
+style="background-image: url('/light/assets/imgs/header/bg1.jpg')"
     data-overlay-dark="8"
   >
     <div class="container pt-100">
@@ -34,10 +34,3 @@
   </header>
 </template>
 
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

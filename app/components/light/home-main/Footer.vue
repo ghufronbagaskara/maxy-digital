@@ -1,7 +1,7 @@
 <template>
   <footer
     class="clean-footer crev bg-img"
-    data-background="/light/assets/imgs/header/bg1.jpg"
+style="background-image: url('/light/assets/imgs/header/bg1.jpg')"
     data-overlay-dark="10"
   >
     <div class="container pb-40 section-padding ontop">
@@ -88,10 +88,3 @@
   </footer>
 </template>
 
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

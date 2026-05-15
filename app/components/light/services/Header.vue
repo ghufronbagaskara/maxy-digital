@@ -1,7 +1,7 @@
 <template>
   <header
     class="header page-header bg-img section-padding"
-    data-background="/light/assets/imgs/header/b5.jpg"
+   style="background-image: url('/light/assets/imgs/header/b5.jpg')"
     data-overlay-dark="9"
   >
     <div class="container pt-100">
@@ -17,10 +17,3 @@
   </header>
 </template>
 
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

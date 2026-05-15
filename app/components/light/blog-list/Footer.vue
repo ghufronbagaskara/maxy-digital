@@ -120,8 +120,7 @@
   </footer>
 </template>
 <script setup>
-import { onMounted, onBeforeUnmount } from 'vue';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+import { onMounted } from 'vue';
 
 onMounted(() => {
   gsap.set('.footer-container', { yPercent: -50 });
@@ -135,6 +134,5 @@ onMounted(() => {
     animation: uncover,
     scrub: true,
   });
-  loadBackgroudImages();
 });
 </script>

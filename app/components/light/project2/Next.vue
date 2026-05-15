@@ -5,7 +5,7 @@
         <div class="col-md-6 rest">
           <div
             class="text-left box bg-img"
-            data-background="/light/assets/imgs/works/projects/2/1.jpg"
+style="background-image: url('/light/assets/imgs/works/projects/2/1.jpg')"
           >
             <div class="cont d-flex align-items-center">
               <div>
@@ -23,7 +23,7 @@
         <div class="col-md-6 rest">
           <div
             class="text-right d-flex box bg-img"
-            data-background="/light/assets/imgs/works/projects/4/1.jpg"
+           style="background-image: url('/light/assets/imgs/works/projects/4/1.jpg')"
           >
             <div class="ml-auto">
               <div class="cont d-flex align-items-center">
@@ -51,10 +51,3 @@
   </section>
 </template>
 
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

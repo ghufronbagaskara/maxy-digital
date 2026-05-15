@@ -66,7 +66,7 @@
             </div>
             <div
               class="bg-dots bg-img"
-              data-background="/light/assets/imgs/patterns/dots.png"
+style="background-image: url('/light/assets/imgs/patterns/dots.png')"
             ></div>
           </div>
         </div>
@@ -74,10 +74,3 @@
     </div>
   </section>
 </template>
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

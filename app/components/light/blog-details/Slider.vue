@@ -54,14 +54,7 @@
     </div>
     <div
       class="background bg-img mt-80"
-      data-background="/light/assets/imgs/blog/b1.jpg"
+style="background-image: url('/light/assets/imgs/blog/b1.jpg')"
     ></div>
   </header>
 </template>
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>
