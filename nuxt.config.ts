@@ -50,6 +50,7 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap",
         },
         { rel: "stylesheet", href: "/light/assets/css/plugins.css" },
+        { rel: "stylesheet", href: "/light/assets/css/transisitions.css" },
         { rel: "stylesheet", href: "/light/assets/css/satoshi.css" },
         { rel: "stylesheet", href: "/light/assets/css/style.css" },
       ],
@@ -64,6 +65,10 @@ export default defineNuxtConfig({
         { src: "/light/assets/js/scripts.js", defer: true },
       ],
     },
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
   },
   css: ["swiper/css/bundle"],
 
@@ -72,7 +77,7 @@ export default defineNuxtConfig({
     optimization: {
       splitChunks: {
         layout: true,
-      }
-    }
-  }
+      },
+    },
+  },
 });
