@@ -74,10 +74,7 @@
                       <a href="/solutions">Solutions</a>
                     </li>
                     <li class="mb-15">
-                      <a href="/case-studies">Case Studies</a>
-                    </li>
-                    <li class="mb-15">
-                      <a href="/insights">Insights</a>
+                      <a href="/roadmap">Roadmap</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>
@@ -87,16 +84,7 @@
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/about">About MAXY</a>
-                    </li>
-                    <li class="mb-15">
-                      <a href="/singapore-grant">SG AI Grant</a>
-                    </li>
-                    <li class="mb-15">
-                      <a href="/roadmap">Roadmap</a>
-                    </li>
-                    <li>
-                      <a href="/faq">FAQ</a>
+                      <a href="/contact">Book a Call</a>
                     </li>
                   </ul>
                 </div>

@@ -52,7 +52,7 @@
                         fill="#14cf93"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Singapore grants aligned.</h6>
+                  <h6 class="inline fw-400">Full IP ownership. No lock-in.</h6>
                 </li>
               </ul>
             </div>

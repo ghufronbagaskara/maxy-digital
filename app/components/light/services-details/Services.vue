@@ -71,7 +71,7 @@
                         fill="#14cf93"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Singapore PSG/EDG grant-ready.</h6>
+                  <h6 class="inline fw-400">Full IP ownership transferred to you.</h6>
                 </li>
               </ul>
             </div>

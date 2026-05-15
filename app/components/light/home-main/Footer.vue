@@ -1,5 +1,5 @@
 <template>
-  <footer class="clean-footer crev bg-img" data-background="/light/assets/imgs/header/bg1.jpg" data-overlay-dark="10">
+  <footer class="clean-footer crev bg-img" style="background-image: url('/light/assets/imgs/header/bg1.jpg')" data-overlay-dark="10">
     <div class="container pb-40 section-padding ontop">
       <div class="cal-action pb-50 mb-80 bord-thin-bottom">
         <h2 class="fz-120 line-height-1 d-rotate wow">
@@ -46,8 +46,7 @@
             <ul class="rest fz-14">
               <li class="mb-15"><a href="/solutions/agentic-ai">Agentic AI</a></li>
               <li class="mb-15"><a href="/solutions/web-app">Web and App</a></li>
-              <li class="mb-15"><a href="/solutions/digital-growth">Digital Growth</a></li>
-              <li><a href="/singapore-grant">Singapore AI Grant</a></li>
+              <li><a href="/solutions/digital-growth">Digital Growth</a></li>
             </ul>
           </div>
         </div>
@@ -55,11 +54,8 @@
           <div class="column">
             <h6 class="sub-title mb-30">Company</h6>
             <ul class="rest fz-14">
-              <li class="mb-15"><a href="/about">About MAXY</a></li>
-              <li class="mb-15"><a href="/case-studies">Case Studies</a></li>
-              <li class="mb-15"><a href="/insights">Insights</a></li>
-              <li class="mb-15"><a href="/contact">Contact</a></li>
-              <li><a href="/faq">FAQ</a></li>
+             <li class="mb-15"><a href="/roadmap">Roadmap</a></li>
+             <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -87,11 +83,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImage';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>
