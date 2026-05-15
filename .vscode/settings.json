@@ -1,0 +1,34 @@
+{
+  // 1. MENGAKTIFKAN SUGGESTION DI DALAM STRING (Sangat Penting)
+  // Secara default VS Code tidak memunculkan autocomplete saat kita mengetik di dalam tanda kutip class="..."
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // 2. MENGHUBUNGKAN EKSTENSI CSS DENGAN FILE VUE
+  // Memaksa ekstensi Zignd untuk memindai dan bekerja di dalam file .vue
+  "html-css-class-completion.enable": true,
+  "html-css-class-completion.includeGlobPattern": "**/*.{css,html,vue}",
+
+  // Memaksa ekstensi membaca file CSS spesifik dari template kamu (jika auto-scan gagal)
+  "html-css-class-completion.CSSStyleSheets": [
+    "public/light/assets/css/bootstrap.min.css",
+    "public/light/assets/css/style.css",
+    "public/light/assets/css/plugins.css",
+    "public/light/assets/css/satoshi.css"
+  ],
+
+  // 3. PENGATURAN VUE & EMMET
+  // Memastikan fitur penulisan cepat HTML (Emmet) jalan di file Vue
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+
+  // 4. MEMASTIKAN VUE-OFFICIAL BERJALAN BENAR
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  }
+}

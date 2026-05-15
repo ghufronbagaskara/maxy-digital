@@ -5,13 +5,13 @@
         <div class="box">
           <div class="item">
             <h4 class="d-flex align-items-center">
-              <span>Up to 50% Co-Funded by Singapore Government</span>
+              <span>Deployed Across 6 Markets</span>
               <span class="fz-50 ml-50 stroke icon">*</span>
             </h4>
           </div>
           <div class="item">
             <h4 class="d-flex align-items-center">
-              <span>PSG and EDG Grants Available</span>
+              <span>Built for Operators. Owned by You.</span>
               <span class="fz-50 ml-50 stroke icon">*</span>
             </h4>
           </div>
@@ -37,13 +37,13 @@
         <div class="box">
           <div class="item">
             <h4 class="d-flex align-items-center">
-              <span>Up to 50% Co-Funded by Singapore Government</span>
+              <span>Deployed Across 6 Markets</span>
               <span class="fz-50 ml-50 stroke icon">*</span>
             </h4>
           </div>
           <div class="item">
             <h4 class="d-flex align-items-center">
-              <span>PSG and EDG Grants Available</span>
+              <span>Built for Operators. Owned by You.</span>
               <span class="fz-50 ml-50 stroke icon">*</span>
             </h4>
           </div>

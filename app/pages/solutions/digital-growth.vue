@@ -1,5 +1,4 @@
 <template>
-  <LoadingScreen />
   <Cursor />
   <ProgressScroll />
   <Lines />
@@ -10,9 +9,9 @@
         <Header />
         <Services />
         <Process />
-        <Testimonials />
         <Services2 />
         <FAQS />
+        <WorkShowcase category="digital-growth" />
       </main>
       <Footer />
     </div>
@@ -23,14 +22,13 @@ import Footer from '@/components/light/modern-agency/Footer';
 import Lines from '@/components/light/common/Lines';
 import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
-import LoadingScreen from '@/components/light/common/loader';
 import Navbar from '@/components/light/creative-agency/Navbar';
-import Testimonials from '@/components/light/FAQS/Testimonials';
 import Header from '@/components/light/services-details/Header';
 import Services from '@/components/light/services-details/Services';
 import Process from '@/components/light/services-details/Process';
 import Services2 from '@/components/light/services-details/Services2';
 import FAQS from '@/components/light/services-details/FAQS';
+import WorkShowcase from '@/components/light/solutions/WorkShowcase';
 import { onMounted } from 'vue';
 
 onMounted(() => {
